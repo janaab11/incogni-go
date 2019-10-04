@@ -8,10 +8,10 @@ incogni-go attempts to solve the pesky problem of article-limit paywalls, while 
 You have a popup and options page to choose from, when setting the user-list.
 
 #### Popup
-![](../images/popup.png)
+![](assets/img/popup.png)
 
-####Options
-![](../images/options.png)
+#### Options
+![](assets/img/options.png)
 
 --------
 ## Installation
