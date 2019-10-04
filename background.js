@@ -11,7 +11,7 @@ chrome.runtime.onInstalled.addListener(function(){
 
 function Incogni_Go(tab){
     return new Promise(function(resolve,reject) {
-        chrome.storage.local.get(['userList','closeTab','clearHistory','state'],function(result){
+        chrome.storage.local.get(['closeTab','clearHistory','state'],function(result){
             if (result.closeTab) chrome.tabs.remove(tab.id, function(){});
             if (result.clearHistory) chrome.history.deleteUrl({url:tab.url});
             chrome.windows.getAll(function(all_windows){
