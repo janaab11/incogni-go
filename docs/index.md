@@ -1,6 +1,6 @@
 # incogni-go
 
-incogni-go attempts to solve the pesky problem of article-limit paywalls, while browsing the internet.
+attempts to solve the pesky problem of article-limit paywalls, while browsing the internet.
 
 --------
 ## Features
